@@ -1,0 +1,25 @@
+body{
+  background-color: #EB5F34
+}
+
+.ballsy{
+  font-family: Consolas,monaco,monospace;
+  color:#240488;
+
+}
+.zdjecie{
+  margin-left: 300px;
+}
+.font{
+  font-family: Consolas,monaco,monospace;
+  color:#240488;
+  font-size: 30px;
+  margin-left: 220px;
+}
+.font60{
+  margin-left: 300px;
+  color:#240488;
+}
+a:link{
+  text-decoration: none;
+}

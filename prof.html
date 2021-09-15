@@ -1,0 +1,118 @@
+<html>
+<head>
+  <title>królestwo spirali</title>
+  <link rel="stylesheet" href="prof.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <header>
+  <a href="index.html">
+   <img src="images/strzalka.png">
+ </a>
+ <br>
+ <a href="index.html" class="ballsy">(strzałka powrotna)</a>
+    <br> <br> <br>
+   <img class="zdjecie" src="images/prof.png">
+   <br>
+   <a class="font60"> moje logo</a>
+   <br> <br>
+   <a class="font"> czesc</a>
+   <br>
+   <a class="font">  witaj na mojej stronce</a>
+
+
+
+
+   <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br>
+   <script>
+
+            function dis(val)
+            {
+                document.getElementById("result").value+=val
+            }
+
+
+            function solve()
+            {
+                let x = document.getElementById("result").value
+                let y = eval(x)
+                document.getElementById("result").value = y
+            }
+
+
+            function clr()
+            {
+                document.getElementById("result").value = ""
+            }
+         </script>
+
+         <style>
+
+
+            input[type="button"]
+            {
+            background-color:#240488;
+            color: #EB5F34;
+            border: solid black 2px;
+            width:100%
+            }
+
+            input[type="text"]
+            {
+            background-color:white;
+            border: solid black 2px;
+            width:100%
+            }
+         </style>
+      </head>
+
+      <body>
+         <div class = title > " tu masz kaklulator mozesz </div>
+         <div class = title > sb odpalic jak chcesz"</div>
+
+         <table border="1">
+            <tr>
+               <td colspan="3"><input type="text" id="result"/></td>
+
+               <td><input type="button" value="c" onclick="clr()"/> </td>
+            </tr>
+            <tr>
+
+               <td><input type="button" value="1" onclick="dis('1')"/> </td>
+               <td><input type="button" value="2" onclick="dis('2')"/> </td>
+               <td><input type="button" value="3" onclick="dis('3')"/> </td>
+               <td><input type="button" value="/" onclick="dis('/')"/> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="4" onclick="dis('4')"/> </td>
+               <td><input type="button" value="5" onclick="dis('5')"/> </td>
+               <td><input type="button" value="6" onclick="dis('6')"/> </td>
+               <td><input type="button" value="-" onclick="dis('-')"/> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="7" onclick="dis('7')"/> </td>
+               <td><input type="button" value="8" onclick="dis('8')"/> </td>
+               <td><input type="button" value="9" onclick="dis('9')"/> </td>
+               <td><input type="button" value="+" onclick="dis('+')"/> </td>
+            </tr>
+            <tr>
+               <td><input type="button" value="." onclick="dis('.')"/> </td>
+               <td><input type="button" value="0" onclick="dis('0')"/> </td>
+
+               <td><input type="button" value="=" onclick="solve()"/> </td>
+               <td><input type="button" value="*" onclick="dis('*')"/> </td>
+            </tr>
+         </table>
+
+
+
+
+
+
+
+
+  </header>
+</body>
+
+</html>

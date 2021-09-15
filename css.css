@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  background-color: #D2D0B9
+
+
+}
+header{
+  background-color: #E4DFDA
+}
+.font {
+	font-family: Consolas,monaco,monospace;
+  font-size: 50px;
+  color: #731DD8
+}
+.font2 {
+	font-family: Consolas,monaco,monospace;
+  font-size: 20px;
+  color: #DE6449
+}
+.top{
+  margin-left: 50px;
+}
+.top2{
+  margin-left: 140px;
+  margin-top: 0px;
+}
+.font3 {
+	font-family: Consolas,monaco,monospace;
+  font-size: 11px;
+  color: #DE6449
+}
+.licznik{
+  margin-left:923px;
+}
+.font4 {
+	font-family: Consolas,monaco,monospace;
+  font-size: 14px;
+  color: #731DD8;
+  margin-left:530px;
+}
+.linkers{
+  font-family: Consolas,monaco,monospace;
+  list-style: none;
+  margin-left: 30px;
+}
+.flexbox
+{display: flex;
+  align-items: center;}
+  
